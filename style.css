@@ -14,7 +14,7 @@ h1 {
   font-size: 5rem;
 }
 .container {
-  margin: 50px;
+  /* margin: 50px; */
   /* padding: 40px; */
   position: relative;
   min-height: auto;
@@ -44,6 +44,48 @@ h2 {
 footer {
   clear: both;
   position: absolute;
-  top: 50rem;
-  left: 70%;
+  top: 40rem;
+  left: 85%;
+}
+@media (max-width: 680px) {
+  .container {
+    position: relative;
+    min-height: auto;
+    margin: 50px 50px 0 50px;
+  }
+  h1 {
+    margin: 53px 0 53px 0;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .logo {
+    width: 100px;
+  }
+  p {
+    margin: 16px 0 16px 0;
+  }
+  .first {
+    width: 100%;
+  }
+  .first img {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .left {
+    float: left;
+    margin-bottom: 30px;
+  }
+  .right {
+    float: right;
+    margin-bottom: 30px;
+  }
+  footer {
+    display: none;
+    position: absolute;
+    top: 40rem;
+    left: 85%;
+  }
 }
